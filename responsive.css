@@ -1,0 +1,27 @@
+.first-main-div{
+    flex-direction: column;
+}
+/* *{
+    background-color: red;
+} */
+.main-logo-pic{
+    display: flex;
+    justify-content: center;
+}
+/* .main-content-header{
+    position: relative;
+    left: 1rem;
+} */
+.main-image-background{
+    width: 96rem;
+}
+.main-h1h1-pre{
+    /* display: flex; */
+    /* text-align: center; */
+    /* width: 150%; */
+    /* align-content: center; */
+}
+.next{
+    display: flex;
+    justify-content: center;
+}

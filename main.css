@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-image-background{
+    width: 100%;
+    /* width: 4rem; */
+}
+.first-main-div{
+    /* border: 1px solid white; */
+    display: flex;
+    position: absolute;
+    /* top: 234px;
+    top: 239px; */
+    top: 1rem;
+    width: 99%;
+}
+.main-content-unorder{
+    color: white;
+    list-style: none;
+    display: flex;  
+    /* justify-content: space-around; */
+}
+.main-content-header{
+    position: relative;
+    left: 11rem;
+    /* border: 1px solid white; */
+}
+.main-content-unorder>li{
+    padding: 1.5rem;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-content-unorder>li:hover{
+    color: rgb(194, 164, 59);
+    text-decoration: underline;
+}
+.main-logo{
+   
+}
+.main-image-background{
+    filter: brightness(25%);
+}
+.main-h1h1-pre{
+    position: absolute;
+    top: 14rem;
+    color: white;
+    margin-left: 2rem;
+}
+.next{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.const-pre-online{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.const-fitness{
+    color: rgb(194, 164, 59);
+
+}
+.button-for-starthere{
+    font-size: 15px;
+    padding: 1rem;
+    border-radius: 50px;
+    color: white;
+    /* background-color: none */
+    background: none;
+    border: 1px solid white;
+    padding: 12px 30px 12px 30px;
+}
+.button-for-starthere:hover{
+    color: black;
+    background-color: white;
+}
+.main-image-asSeenOn{
+    margin-top: 46px;
+}
+/* .main-image-asSeenOn{
+    margin-left: 16rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+} */
+.lifestyle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.image-logo{
+    text-align: center;
+}
+.cont-better-step{
+    margin-top: 60px;
+    
+}
+.main-be-a-better{
+    font-size: 2.5rem;
+}
+.main-personal{
+    font-size: 2rem;
+    /* font-weight: 900; */
+    color: rgb(194, 164, 59);
+}
+.main-description{
+    font-size: 20px;
+}
+.main-three-boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 92px;
+}
+.box{
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 22%;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow:0px 0px 20px 12px rgb(0 0 0 / 41%)
+}
+.box>pre{
+    font-family: 'Montserrat', sans-serif;
+}
+.box>a{
+    color:rgb(194, 164, 59); ;
+}
+.main-online-individual-personal{
+    margin-top: 100px;
+    border: 2px solid black;
+    display: flex;
+    background-color: black;
+    height: 50%;
+}
+.main-image-individuals>img{
+    width: 76%;
+    height: 60%;
+    padding-left: 109px;
+    padding-top: 113px;
+}
+
+.const-throughtout>h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.const-throughtout>pre{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.cont-pre1{
+    font-size: 42px;
+}
+.const-throughtout{
+    padding-top: 14px;
+    margin-left: 30px;
+}
+.const-about-button{
+   padding:10px 30px 10px 30px;
+   border-radius: 50px;
+   background-color: white;
+   margin-bottom: 3rem;
+   cursor: pointer;
+}
+.const-about-button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.main-robs-review{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    
+}
+.main-robs-review>h1{
+    text-align: center;
+    font-size: 41px;
+    margin-top: 80px;
+}
+.reviews{
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    margin-top: 4rem;
+}
+
+.main-review-for-gym{
+    display: flex;
+    justify-content: space-around;
+}
+.reviews>h4{
+    color: rgb(194, 164, 59);;
+}
+.button-read-full-story{
+   margin-top: 72px;
+   margin-bottom: 3rem;
+   margin-left: 41rem;
+   padding: 1em 2em 1em 2em;
+   border-radius: 3rem;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+}
+.button-read-full-story:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    
+}
+.const-footer-for-project{
+    background-color: rgb(20, 17, 17);
+    color: white;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    height: 22rem;
+}
+.footersteps li{
+    list-style: none;
+}
+.footersteps>h4{
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.main-footer
+.main-copyright{
+    /* background-color: rgb(20, 17, 17);
+    color: white; */
+    position: absolute;
+    top: 223rem;
+    color: white;
+    /* text-align: center; */
+    margin-left: 36rem;
+}
+
+
+@media screen and 
+(max-width:1400px){
+    .first-main-div{
+        flex-direction: column;
+        width: 115%;
+        text-align: center;
+    }
+    /* *{
+        background-color: red;
+    } */
+    .main-logo{
+        position: relative;
+        left: 35%;
+    }
+    /* .main-content-header{
+        position: relative;
+        left: 1rem;
+    } */
+    .main-image-background{
+        width: 96rem;
+    }
+    .main-h1h1-pre{
+        /* display: flex; */
+        /* text-align: center; */
+        /* width: 150%; */
+        /* align-content: center; */
+    }
+    .next{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
